@@ -11,15 +11,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .container {
     background-color: #000;
-    padding: 20px;
     border: 2px solid #ff00ff;
-    max-width: 400px;
+    padding: 30px;  /* Increased padding */
+    max-width: 800px;  /* Increased container width */
     text-align: center;
+    width: 100%;          /* Full width */
+    height: 800px;            /* Set initial height */
+    padding-bottom: 40%; /* Makes height equal to width for a square */
+    position: relative; 
 }
 
 .title {
@@ -47,7 +52,7 @@ body {
 }
 
 .mcap-value {
-    font-size: 40px;
+    font-size: 48px;
     color: #00ff00;
 }
 
